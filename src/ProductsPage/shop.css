@@ -1,0 +1,158 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr; /* İstenilen uzunluklar burada belirlenir */
+  }
+  
+  .left-column, .right-column {
+    padding: 20px;
+  }
+  .left-column{
+margin-left: 140px;
+height: 760px;
+position: relative;
+bottom: 20px;
+  }
+  .right-column{
+    margin-right: 140px;
+    height: 1480px;
+    margin-bottom: 56px;
+  }
+  
+  .product-card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-card {
+width: 275px;
+height: 432px;
+gap: 16px;
+  margin-bottom: 24px;
+  margin-right: 16px; /* Yatay boşluk */
+  background-color: #F6F6F6; /* Kart arkaplan rengi */
+  border: 1px solid #909090; /* Kart kenarlık rengi */
+  padding: 20px; /* Kart içeriği arasındaki boşluk */
+  box-sizing: border-box; /* padding'i genişlik ve yükseklik dahil etmek için */
+  border-radius: 9px;
+}
+
+/* Son ürün kartının sağ kenar boşluğunu kaldırmak için */
+.product-card:last-child {
+  margin-right: 0;
+}
+
+.product-img{
+width: 160px;
+height: 160px;
+margin-left: 30px;
+margin-top: 20px;
+}
+
+.shop-header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 40px;
+}
+.Number_of_products{
+  display: flex;
+  color: #6C6C6C;
+  font-size: 16px;
+position: relative;
+bottom: 16px;
+}
+.product_of_Number{
+  font-size: 20px;
+  color: black;
+  position: relative;
+
+}
+.favorishop{
+  width: 32px;
+  height: 32px;
+  margin-left: 200px;
+}
+.text-product-1{
+width: 234.33px;
+height: 48px;
+display: flex;
+text-align: center;
+font-size: 16px;
+line-height: 24px;
+margin-top: 12px;
+font-weight: bold;
+}
+.text-product-2{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.card-shop{
+  width: 183px;
+  height: 48px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.product-card:nth-child(8),
+.product-card:nth-child(9) {
+  margin-right: 15px; /* Değişiklik yapılabilir */
+}
+
+.accordion{
+  width: 256px;
+  max-width: 760px;
+  margin: auto;
+  border: none;
+  position: relative;
+  right: 10px;
+}
+
+.accor-text{
+  width: 256px;
+  height: 40px;
+  background-color: #F5F5F5;
+  position: relative;
+  right: 20px;
+}
+.accordion-button{
+  font-size: 18px;
+  line-height: 24px;
+}
+.left-checkbox{
+  position: relative;
+  right: 15px;
+}
+.checkbox1{
+  width: 16.33px;
+  height: 15.67px;
+color: black;
+}
+.checkbox1:checked {
+  color: black; /* Checkbox tıklandığında içeriğin rengini beyaza dönüştürme */
+}
+
+.dropdown{
+  border: 1px solid black;
+width: 256px;
+height: 40px;
+border-radius: 8px;
+position: relative;
+right: 15px;
+bottom: 24px;
+}
+.accordion-item .accordion-header {
+  border-bottom: 1px solid #B5B5B5;
+}
+/* Mavi aktif buton görünümünü kaldır */
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown-toggle{
+  width: 256px;
+  display: flex;
+justify-content: space-between;
+text-align: center;
+}

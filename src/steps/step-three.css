@@ -1,0 +1,222 @@
+.content-step-three {
+    width: 1519px;
+    height: 800px;
+    background-color: white;
+    display: flex;
+}
+
+.Left-side {
+    width: 512px;
+    height: 704px;
+    margin-left: 160px;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.Right-side {
+    width: 512px;
+    height: 704px;
+    margin-left: 96px;
+    background-color: white;
+    margin-top: 24px;
+}
+
+.left-side-title {
+    width: 464px;
+    height: 16px;
+    font-size: 20px;
+    line-height: 16px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.selected-product {
+    width: 464px;
+    max-height: 300px; /* Set a maximum height to allow scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 10px; /* Prevent content from being hidden behind scrollbar */
+}
+
+.cart-item21 {
+    display: flex;
+    margin: 20px 0; /* Add margin to separate items */
+    margin-left: 24px;
+    width: 412px;
+    height: 72px;
+    background-color: #F6F6F6;
+    border-radius: 13px;
+}
+
+.product-img21 {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; /* Add space between image and details */
+    margin-top: 15px;
+}
+
+.product-details21 {
+    display: flex;
+    flex-direction: column; /* Arrange name and price vertically */
+}
+
+.product-name21 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-price21 {
+    font-size: 14px;
+    color: #555;
+}
+
+.address-title{
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 464px;
+    height: 16px;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 500;
+}
+.address-cookie{
+    display: flex;
+    margin-left: 24px;
+}
+.Shipment-method{
+    margin-left: 24px;
+    margin-top: 16px;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Shipment-method2{
+    margin-left: 24px;
+    margin-top: 16px;
+    font-weight: 500;
+    position: relative;
+    bottom: 5px;
+}
+.Subtotal{
+    margin-left: 24px;
+  display: flex;
+  width: 414px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.Estimated-Tax{
+    margin-left: 24px; 
+    display: flex;
+    width: 433px;
+    height: 32px;
+    color: #545454;
+}
+.Total{
+    margin-left: 24px;
+    display: flex;
+    width: 414px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.subtotal{
+    margin-left: 270px;
+}
+.estimated-tax{
+    margin-left: 260px;
+    color: black;
+    font-weight: bold;
+}
+.Estimated-shipping-Handling{
+display: flex;
+width: 433px;
+height: 32px;
+margin-left: 24px;
+color: #545454;
+}
+.esah{
+    margin-left: 135px;
+    color: black;
+    font-weight: bold;
+}
+.total{
+    margin-left: 300px;
+
+}
+.totals{
+    position: relative;
+    bottom: 10px;
+}
+.right-side-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.payment-methods{
+    display: flex;
+    gap: 56px;
+}
+.credit-card{
+    border-bottom: 1px solid #545454;
+    
+}
+.card1{
+    width: 512px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.card2{
+    width: 512px;
+    height: 48px;
+    margin-top: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 7px
+}
+.card3{
+    width: 248px;
+    height: 48px; 
+    margin-top: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 7px
+}
+.card4{
+    width: 248px;
+    height: 48px; 
+    margin-left: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 7px
+}
+.checkbox4{
+    margin-top: 48px;
+}
+.but-div{
+    width: 512px;
+    height: 64px;
+    margin-top: 40px;
+}
+.button00{
+    width: 244.5px;
+    height: 64px;
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.button01{
+    width: 244.5px;
+    height: 64px;
+    margin-left: 23px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
