@@ -44,7 +44,7 @@ Cyber genellikle Apple ürünlerini satan bir teknoloji sitesidir. Bu sitede App
   - Bir komut İstemcisi Açılması Gerekmektedir.
 
 - **3.MADDE:**
-  - Daha Sonra Proje "git clone" Komutu Kullanılarak Masaüstüne Klonlanaması Gerekmektedir. --> "git clone https://github.com/berkeksn38/cyper.git" 
+  - Daha Sonra Proje "git clone" Komutu Kullanılarak Masaüstüne Klonlanaması Gerekmektedir. --> "git clone https://github.com/berkeksn38/cyber.git" 
 
 - **4.MADDE:**
   - Dosya Klonlandıktan Sonra "npm i" Yazılarak Proje İçin Gerekli Mödüller Yüklenmesi Gerekmektedir.
