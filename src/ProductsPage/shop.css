@@ -62,9 +62,11 @@ position: relative;
 bottom: 16px;
 }
 .product_of_Number{
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   position: relative;
+  top: -1px;
+  left: 4px
 
 }
 .favorishop{
