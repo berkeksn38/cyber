@@ -186,7 +186,7 @@ function StepThree() {
                                 />
                                 </form>
                                 </div>
-                                <input type="checkbox" className="checkbox4" />Same as billing address
+                                <input type="checkbox" className="checkbox4" /> Same as billing address
                                 <div className="but-div">
                                 <input type="button" className="button00" onClick={handleBackClick} value="Back" />
                                 <input type="button" className="button01" value="Pay" onClick={handlePayClick} />
