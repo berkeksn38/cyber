@@ -38,21 +38,24 @@ Cyber genellikle Apple ürünlerini satan bir teknoloji sitesidir. Bu sitede App
 ## Projenin Çalışma Maddeleri
 
 - **1.MADDE:**
-  - İlk Önce Git Programı Bilgisayara Yüklenmelidir.  [![Download GİT](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download GİT")](https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
+  - İlk Önce Node.JS Programı Bilgisayara Yüklenmelidir.  [![Download NODEJS](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download NODEJS")](https://nodejs.org/dist/v20.16.0/node-v20.16.0-x64.msi)
 
 - **2.MADDE:**
-  - Bir komut İstemcisi Açılması Gerekmektedir.
+  - İlk Önce Git Programı Bilgisayara Yüklenmelidir.  [![Download GİT](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download GİT")](https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
 
 - **3.MADDE:**
-  - Daha Sonra Proje "git clone" Komutu Kullanılarak Masaüstüne Klonlanaması Gerekmektedir. --> "git clone https://github.com/berkeksn38/cyber.git" 
+  - Bir komut İstemcisi Açılması Gerekmektedir.
 
 - **4.MADDE:**
-  - Dosya Klonlandıktan Sonra "npm i" Yazılarak Proje İçin Gerekli Mödüller Yüklenmesi Gerekmektedir.
+  - Daha Sonra Proje "git clone" Komutu Kullanılarak Masaüstüne Klonlanaması Gerekmektedir. --> "git clone https://github.com/berkeksn38/cyber.git" 
 
 - **5.MADDE:**
-  - Modüller Kurulduktan Sonra "npm run dev" Yazılarak Proje Localhost'a Başlatılır.
+  - Dosya Klonlandıktan Sonra "npm i" Yazılarak Proje İçin Gerekli Mödüller Yüklenmesi Gerekmektedir.
 
 - **6.MADDE:**
+  - Modüller Kurulduktan Sonra "npm run dev" Yazılarak Proje Localhost'a Başlatılır.
+
+- **7.MADDE:**
   - Proje Başlatıldıktan Sonra Farklı Komut İstemcisi Açıldıktan Sonra "npx json-server db.json" Yazılarak Mock-Data Başlatılır.
 
 - **7.MADDE:**
